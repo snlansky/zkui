@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ZK_SERVER=${ZK_SERVER:-"localhost:2181"}
+#ZK_SERVER=${ZK_SERVER:-"zoo1:2181,zoo2:2181,zoo3:2181"}
 
 USER_SET=${USER_SET:-"{\"users\": [{ \"username\":\"admin\" , \"password\":\"snlan\",\"role\": \"ADMIN\" \},{ \"username\":\"appconfig\" , \"password\":\"appconfig\",\"role\": \"USER\" \}]\}"}
 LOGIN_MESSAGE=${LOGIN_MESSAGE:-"Please login using admin/manager or appconfig/appconfig."}
